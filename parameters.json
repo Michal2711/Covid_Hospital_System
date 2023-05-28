@@ -1,0 +1,58 @@
+{
+    "data":
+        {
+            "covid_rooms":
+            {
+                "number_of_rooms": 20,
+                "number_of_doctors": 20,
+                "number_of_nurses": 18,
+                "number_of_stable": 7
+            },
+            "patients": 25,
+            "number_of_actions": 10,
+            "number_of_patients_in_casualty_department": 1000,
+            "number_of_utility_rooms": 1,
+            "equipments":
+            {
+                "stable_covid_room":
+                {
+                    "number_of_stable_EKG": 2,
+                    "number_of_stable_mds": 10,
+                    "number_of_stable_oxygen_pomps": 3,
+                    "number_of_stable_comp": 2,
+                    "number_of_stable_desk": 2,
+                    "number_of_stable_drip": 3,
+                    "number_of_stable_chair": 5
+                },
+                "critical_covid_room":
+                {
+                    "number_of_critical_respirator": 10,
+                    "number_of_critical_EKG": 5,
+                    "number_of_critical_mds": 10,
+                    "number_of_critical_oxygen_pomps": 5,
+                    "number_of_critical_comp": 3,
+                    "number_of_critical_desk": 3,
+                    "number_of_critical_drip": 5,
+                    "number_of_critical_chair": 5
+                },
+                "casualty_department":
+                {
+                    "number_of_casualty_d_mds": 1,
+                    "number_of_casualty_d_comp": 1,
+                    "number_of_casualty_d_desk": 1,
+                    "number_of_casualty_d_chair": 501
+                },
+                "staff_room":
+                {
+                    "number_of_staff_mds": 1,
+                    "number_of_staff_comp": 1,
+                    "number_of_staff_desk": 1,
+                    "number_of_staff_chair": 10
+                },
+                "utility_room":
+                {
+                    "number_of_dhs": 1
+                }
+            }
+        }
+}
